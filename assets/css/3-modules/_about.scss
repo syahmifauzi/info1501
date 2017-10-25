@@ -1,0 +1,48 @@
+#about {
+    font-size: 1ram;
+    padding: 5em 1em;
+    text-align: center;
+    font-family: $secondary-font;
+    .about-header {
+        color: $base-color;
+        font-family: $primary-font;
+    }
+    .about-desc {
+        font-weight: bold;
+        max-width: 700px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .why-use {
+        p {
+            font-weight: bold;
+            font-family: $primary-font;
+        }
+        ul {
+            text-align: left;
+            max-width: 450px;
+            margin: 0 auto;
+        }
+    }
+    .how-to {
+        padding: 2em 0 0 0;
+        p {
+            font-weight: bold;
+            font-family: $primary-font;
+        }
+        .box {
+            padding: 1em;
+            max-width: 250px;
+            margin: 0 auto;
+            line-height: 1.5;
+        }
+        i {
+            color: $accent-color;
+            font-size: 2em;
+        }
+        span {
+            display: block;
+            font-size: .8em;
+        }
+    }
+}

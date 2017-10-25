@@ -1,0 +1,22 @@
+.vismis {
+    font-size: 1ram;
+    padding: 5em 1em;
+    text-align: center;
+    font-family: $secondary-font;
+    ul {
+        padding: 0;
+        li {
+            margin-bottom: 10px;
+        }
+    }
+    h1 {
+        margin: 1em 0 0 0;
+        color: $base-color;
+    }
+    .vision, .mission {
+        margin-bottom: 3em;
+        p, li {
+            font-weight: bold;
+        }
+    }
+}

@@ -1,0 +1,18 @@
+# Site settings
+title: "Hotspot Machine Gun"
+author: Syahmi Fauzi
+email: brosyahmifauzi@gmail.com
+description: >-
+  Business Fundamentals INFO1501 Group Project
+keywords: "business, info1501, project, marketing, product"
+
+url: "http://www.syahmifauzi.com"
+baseurl: "info1501"
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+exclude: ["node_modules", "gulpfile.js", "package.json", "package-lock.json", "README.md", "offline.txt", "Gemfile", "Gemfile.lock"]

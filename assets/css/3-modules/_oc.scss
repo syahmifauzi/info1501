@@ -1,0 +1,71 @@
+.oc {
+    font-size: 1ram;
+    padding: 2.5em 1em 6em 1em;
+    text-align: center;
+    font-family: $secondary-font;
+    h1 {
+        color: $base-color;
+        margin-bottom: 1.5em;
+    }
+    img {
+        width: 100px;
+    }
+    .oc-box {
+        position: relative;
+        max-width: 200px;
+        margin: 0 auto 40px auto;
+        .oc-img {
+            width: 100px;
+            height: 100px;
+            overflow: hidden;
+            border-radius: 100%;
+            margin: 0 auto;
+            border: 2px solid $accent-color;
+            cursor: pointer;
+            img {
+                transition: transform 125ms ease-in-out;
+                transform: scale(1.1);
+            }
+        }
+        .oc-pos {
+            background: $accent-color;
+            color: $light-gray-color;
+            border-radius: 5px;
+            margin-top: -25px;
+            padding-bottom: 5px;
+            cursor: pointer;
+            h2 {
+                padding: .3em 0 0 0;
+                margin-bottom: 0;
+                font-size: 1.3em;
+            }
+            p {
+                margin: 0;
+            }
+        }
+        .oc-js {
+            font-size: .8em;
+            text-align: left;
+            border-radius: 5px;
+            position: absolute;
+            top: 105%;
+            max-width: 250px;
+            background: $white-color;
+            z-index: 10;
+            border: 1px solid $accent-color;
+            overflow: hidden;
+            max-height: 0;
+            padding: 0;
+            transition: all 225ms ease-in-out;
+            ul {padding-left: 20px;}
+        }
+        .oc-img:hover ~ .oc-js,
+        .oc-pos:hover ~ .oc-js {
+            max-height: 200px;
+            padding: 1em .3em;
+        }
+        .oc-img:hover img {
+            transform: scale(1.3);
+        }
+    }
+}
